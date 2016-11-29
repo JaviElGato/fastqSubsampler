@@ -1,4 +1,10 @@
 #!/usr/bin/python3.5
+# Author Dr. Javier Gutierrez-Achury - WTSI
+# Usage: python fastqSubsampler.py --fastq YOUR_FULL_FASTQ --prop THE_PROPORTION_OF_READS_TO_EXTRACT --outFastq YOUR_SUBSAMPLED_FASTQ
+
+"""
+The program will generate 10 randomly subsampled copies. To change this, modify line 52
+"""
 
 import argparse
 import random
