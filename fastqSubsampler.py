@@ -17,7 +17,7 @@ start = datetime.datetime.now()
 fastq = open(args.fastq, 'r+')
 prop = args.prop
 #outFastq = open(args.outFastq, 'w')
-print(fastq)
+#print(fastq)
 
 prop = int(prop)/100
 print("Retreiving reads to list")
